@@ -10,6 +10,12 @@ repositories {
     }
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of("${JAVA_VERSION}")
+    }
+}
+
 dependencies {
     implementation(group: 'com.aspose', name: 'aspose-html', version: '23.8', classifier: "jdk1.8")
 
