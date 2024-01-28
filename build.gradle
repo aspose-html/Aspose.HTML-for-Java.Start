@@ -13,7 +13,7 @@ repositories {
 
 dependencies {
     implementation(
-            api(group: 'com.aspose', name: 'aspose-html', version: '23.8', classifier: "jdk1.8")
+            api(group: 'com.aspose', name: 'aspose-html', version: '24.1', classifier: "jdk1.8")
     )
 
     testImplementation(
