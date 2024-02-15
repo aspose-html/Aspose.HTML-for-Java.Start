@@ -7,6 +7,10 @@ This is a simple project to demonstrate how using **Aspose.HTML for Java** libra
 For build project using command
 
 ```
-./gradlew build
+./gradlew StartAsposeHtmlApplication
+```
+or
+```
+./gradlew test
 ```
 

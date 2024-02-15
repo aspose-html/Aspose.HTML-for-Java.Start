@@ -1,2 +1,4 @@
 build
 junit-reports
+.gradle
+.idea
